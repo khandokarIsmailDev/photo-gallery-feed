@@ -4,8 +4,8 @@ import PhotoCart from "./PhotoCart";
 const PhotoList = ({ photos }) => {
   return (
     <div className="img-grid">
-      {photos.map((photo) => (
-        <PhotoCart photo={photo} />
+      {photos.map((photo,index) => (
+        <PhotoCart key={index} photo={photo} />
       ))}
     </div>
   );
