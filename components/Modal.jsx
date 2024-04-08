@@ -24,7 +24,7 @@ const Modal = ({ children }) => {
     <dialog
       ref={modalRef}
       onClose={onHide}
-      className=" shadow-teal-700 shadow-md border border-teal-600 flex flex-col p-2 rounded-md dark:bg-black dark:bg-opacity-95 dark:text-gray-100"
+      className=" shadow-teal-700 shadow-md border border-teal-600 flex flex-col p-2 rounded-md "
     >
       <span onClick={onHide} className="flex justify-end cursor-pointer ">
         <Image src="/x-mark.svg" width={30} height={30} alt="close" />
